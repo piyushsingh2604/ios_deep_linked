@@ -1,0 +1,52 @@
+
+ {
+   "applinks": {
+       "apps": [],
+       "defaults": { "percentEncoded": false },
+       "details": [
+            {
+              "appID": "GK8PMHA4G3.com.mega.ios.rummy",
+              "paths": [ "/play-rummy-online/rummy-lobby" ],
+              "components": [
+                {
+                   "/": "/play-rummy-online/*",
+                   "comment": "Matches any URL with a fragment that equals no_universal_links and instructs the system to open it as a universal link."
+                },
+                {
+                   "/": "/play-rummy-online/rummy-lobby",
+                   "comment": "Matches any URL with a path that starts with /Home/."
+                },
+                {
+                    "/": "/play-rummy-online/rummy-banking-balance",
+                    "comment": "Matches any URL with a path that starts with /Wallet/."
+                },               
+                {
+                    "/": "/play-rummy-online/refer-earn/invite-friends",
+                    "comment": "Matches any URL with a path that starts with /Refferal/."
+                },                                                                          
+                {
+                    "/": "/play-rummy-online/rummy-playerprofile-kyc",
+                    "comment": "Matches any URL with a path that starts with /KYC/."
+                },                                                                   
+                {
+                    "/": "/play-rummy-online/rummy-banking-deposit",
+                    "comment": "Matches any URL with a path that starts with /AddCash/."
+                },  
+                {
+                    "/": "/play-rummy-online/leaderboard",
+                    "comment": "Matches any URL with a path that starts with /buy/."
+                },                                                                                 
+                {
+                   "/": "/play-rummy-online/leaderboard",
+                   "?": { "leaderboardID": "????" },
+                   "comment": "Matches any URL with a path that starts with /Leaderboard/ and that has a query item with name 'LeaderboardID' and a value of exactly four characters."
+                }
+              ]
+            },
+            {
+                "appID": "GK8PMHA4G3.com.mega.ios",
+                "paths": [ "*" ]
+            }
+        ]
+    }
+ }
